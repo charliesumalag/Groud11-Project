@@ -1,0 +1,169 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  background-image: url("file:///C:/Users/Naughty/Desktop/Project/maincampus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Ensures the background image stays fixed */
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url("https://icct.edu.ph/wp-content/uploads/2019/02/Caintamainhih-01.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+}
+.home-page {
+  /* border: 1px solid red; */
+  padding: 3.2rem;
+  max-width: 400px;
+}
+h1 {
+  /* color: #007bff; */
+  color: #555;
+}
+.start-link {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-weight: 600;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: 0.3s all ease;
+}
+.start-link:hover {
+  background-color: #004080;
+}
+.registration-form {
+  display: none;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold; /* Make labels bold */
+  text-align: left; /* Align labels to the left */
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+select {
+  width: calc(100% - 20px); /* Adjust width to accommodate padding */
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+  font-size: 16px; /* Increase font size for better readability */
+}
+select {
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background-color: #0056b3; /* Darker shade of blue */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: #004080; /* Darker shade on hover */
+}
+.message {
+  display: none; /* Hidden by default */
+  background-color: rgba(0, 0, 0, 0.8); /* Darker semi-transparent background */
+  color: #000; /* Black text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Adding text shadow for better visibility */
+}
+.modal-overlay {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+  background-color: #fefefe;
+  position: absolute;
+  padding: 3rem;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-content p {
+  /* margin-bottom: 20px; */
+  color: #000; /* Black text color for the message */
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+.modal-content button {
+  padding: 1rem 2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s all ease-in;
+}
+.modal-content button:hover {
+  background-color: #0056b3;
+}
