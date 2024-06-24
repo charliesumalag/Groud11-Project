@@ -13,12 +13,12 @@ startLink.addEventListener("click", function (event) {
 });
 
 // Close modal and show form if "Yes" is clicked
-confirmYes.addEventListener("click", function () {
-  modal.style.display = "none"; // Close modal
-  document.getElementById("registration-form").style.display = "block"; // Show registration form
-  startLink.parentNode.style.display = "none"; // Hide "CLICK HERE TO START" link
-  homeEl.style.display = "block";
-});
+// confirmYes.addEventListener("click", function () {
+//   modal.style.display = "none"; // Close modal
+//   document.getElementById("registration-form").style.display = "block"; // Show registration form
+//   startLink.parentNode.style.display = "none"; // Hide "CLICK HERE TO START" link
+//   homeEl.style.display = "block";
+// });
 
 // Close modal if "No" is clicked
 confirmNo.addEventListener("click", function () {

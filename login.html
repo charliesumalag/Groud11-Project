@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>LOG-IN/SIGN UP</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="nav-container">
+        <nav>
+          <h1 class="header-text">ICCT COLLEGES NS</h1>
+          <ul class="list-items">
+            <li class="list-item" id="userLogin">User Login</li>
+            <li class="list-item" id="userRegistration">User Registration</li>
+            <li class="list-item">Admin</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-content">
+        <div class="log-sign-container">
+          <div class="head-text-form">
+            <h2 class="login-text" id="login-text">LOGIN</h2>
+            <h2 class="signup-text" id="sign-up-text">SIGN UP</h2>
+          </div>
+
+          <p class="system-text">ICCT NUMBERING SYSTEM</p>
+          <!-- LOGIN FORM -->
+          <div class="for-hidden  " id="for-hidden-login">
+            <p class="user-login-text">USER LOGIN</p>
+            <form action="">
+              <label for="email">Email Address</label>
+              <input type="email" name="email" placeholder="" />
+              <label for="email" class="password">Password</label>
+              <input type="password" name="password" placeholder="" />
+            </form>
+            <div class="btn-container">
+              <button class="btn login">Login</button>
+              <button class="btn google">Login with Google</button>
+            </div>
+            <p class="donthave">Don't have an account? <span id="signUp">Sign Up</span></p>
+            <p class="forgot-password">Forgot Password</p>
+            <p class="copyright">&copy; 2024 Group 11</p>
+          </div>
+          <!-- SIGNUP FORM -->
+          <div class="for-hidden hidden" id="for-hidden-signup">
+            <p class="user-login-text">LET'S GET STARTED</p>
+            <form action="">
+              <label for="name">Student Name</label>
+              <input type="text" name="name">
+              <label for="name" class="student-number">Student Number</label>
+              <input type="text" name="name">
+              <label for="email" class="email-address">Email Address</label>
+              <input type="email" name="email" placeholder="" />
+              <label for="email" class="password">Password</label>
+              <input type="password" name="password" placeholder="" />
+            </form>
+            <div class="btn-container">
+              <button class="btn login">Sign Up</button>
+            </div>
+            <p class="alreadyhave">Already have an account? <span id="sign-in">Sign In</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

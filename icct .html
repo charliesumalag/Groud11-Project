@@ -17,7 +17,7 @@
       <div class="home-page">
         <h1>WELCOME TO ICCT WEB PAGE</h1>
         <p>
-          <a href="#" id="start-link" class="start-link">CLICK HERE TO START</a>
+          <a href="#" id="start-link" class="start-link">Click HERE TO START</a>
         </p>
       </div>
       <form id="registration-form" class="registration-form">
@@ -34,16 +34,15 @@
         <label for="date">DESIRE DATE:</label>
         <input type="date" id="date" name="date" required />
         <label for="Course">Choose Course:</label>
-        <select name="Course" id="Course" required>
-          <option value="">Select Course</option>
-          <option value="CHS">CHS</option>
-          <option value="ISHTM">ISHTM</option>
-          <option value="CoTE">CoTE</option>
-          <option value="CoE">CoE</option>
-          <option value="CBA">CBA</option>
-          <option value="CoCA">CoCA</option>
-          <option value="CAS">CAS</option>
-          <option value="CCS">CCS</option>
+        <select name="Course" id="Course" class="select-course" required>
+          <option value="CHS" class="course">BSBA</option>
+          <option value="ISHTM" class="course">BSIT</option>
+          <option value="CoTE" class="course">BSCS</option>
+          <option value="CoE" class="course">BSIS</option>
+          <option value="CBA" class="course">BSEd</option>
+          <option value="CoCA" class="course">BSC</option>
+          <option value="CAS" class="course">BSHM</option>
+          <option value="CCS" class="course">BSTM</option>
         </select>
         <button type="submit" class="button">Submit</button>
         <div id="message" class="message">
@@ -60,9 +59,7 @@
           used only by the admin of the School and will be kept confidential.
         </p>
         <div class="btn-container">
-          <a href="login.html"
-            ><button id="confirmYes" class="button">Yes</button>
-          </a>
+          <button id="confirmYes" class="button">Yes</button>
           <button id="confirmNo" class="button">No</button>
         </div>
       </div>
