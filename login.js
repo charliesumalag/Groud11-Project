@@ -6,6 +6,9 @@ const signupEl = document.getElementById("signUp");
 const signinEl = document.getElementById("sign-in");
 const userLoginEl = document.getElementById("userLogin");
 const userRegEl = document.getElementById("userRegistration");
+const loginBtn = document.getElementById("loginBtn");
+const username = "user";
+const password = "password";
 signUpBtnTopEl.addEventListener("click", signUpClick);
 loginBtnTopEl.addEventListener("click", loginClick);
 
@@ -25,3 +28,5 @@ signinEl.addEventListener("click", loginClick);
 userLoginEl.addEventListener("click", loginClick);
 signupEl.addEventListener("click", signUpClick);
 userRegEl.addEventListener("click", signUpClick);
+
+loginBtn.addEventListener("click", function () {});

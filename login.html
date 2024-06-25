@@ -22,6 +22,13 @@
             <li class="list-item" id="userRegistration">User Registration</li>
             <li class="list-item">Admin</li>
           </ul>
+          <div class="burger-main-container">
+            <div class="burger-container">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+          </div>
         </nav>
       </div>
       <div class="main-content">
@@ -33,8 +40,8 @@
 
           <p class="system-text">ICCT NUMBERING SYSTEM</p>
           <!-- LOGIN FORM -->
-          <div class="for-hidden  " id="for-hidden-login">
-            <p class="user-login-text">USER LOGIN</p>
+          <div class="for-hidden" id="for-hidden-login">
+            <p class="user-login-text">User Login</p>
             <form action="">
               <label for="email">Email Address</label>
               <input type="email" name="email" placeholder="" />
@@ -42,21 +49,26 @@
               <input type="password" name="password" placeholder="" />
             </form>
             <div class="btn-container">
-              <button class="btn login">Login</button>
+              <a href=""
+                ><button class="btn login" id="loginBtn">Login</button></a
+              >
+
               <button class="btn google">Login with Google</button>
             </div>
-            <p class="donthave">Don't have an account? <span id="signUp">Sign Up</span></p>
+            <p class="donthave">
+              Don't have an account? <span id="signUp">Sign Up</span>
+            </p>
             <p class="forgot-password">Forgot Password</p>
             <p class="copyright">&copy; 2024 Group 11</p>
           </div>
           <!-- SIGNUP FORM -->
           <div class="for-hidden hidden" id="for-hidden-signup">
-            <p class="user-login-text">LET'S GET STARTED</p>
+            <p class="user-login-text">Let's Get Started</p>
             <form action="">
               <label for="name">Student Name</label>
-              <input type="text" name="name">
+              <input type="text" name="name" />
               <label for="name" class="student-number">Student Number</label>
-              <input type="text" name="name">
+              <input type="text" name="name" />
               <label for="email" class="email-address">Email Address</label>
               <input type="email" name="email" placeholder="" />
               <label for="email" class="password">Password</label>
@@ -65,7 +77,10 @@
             <div class="btn-container">
               <button class="btn login">Sign Up</button>
             </div>
-            <p class="alreadyhave">Already have an account? <span id="sign-in">Sign In</span></p>
+            <p class="alreadyhave">
+              Already have an account? <span id="sign-in">Sign In</span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
